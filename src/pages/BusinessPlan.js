@@ -60,7 +60,7 @@ const BusinessPlan = () => {
           <img 
             src={process.env.PUBLIC_URL + "/CaelumLogo.jpeg"} 
             alt="Caelum Logo" 
-            className="caelum-logo"
+            className="logo-image"
           />
         </div>
       </div>
