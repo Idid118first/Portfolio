@@ -58,8 +58,8 @@ const Projects = () => {
         </p>
         <div className="game-image-container" onClick={handleImageClick}>
           <img 
-            src="/game.png" 
-            alt="Asteroid Game Project" 
+            src={process.env.PUBLIC_URL + "/game.png"} 
+            alt="Asteroid Game" 
             className="game-image"
           />
         </div>

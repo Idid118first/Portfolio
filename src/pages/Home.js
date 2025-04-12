@@ -49,7 +49,7 @@ const Home = () => {
 
       <main className="main-content">
         <img 
-          src="/Portfolio-Headshot.JPEG" 
+          src={process.env.PUBLIC_URL + "/Portfolio-Headshot.JPEG"} 
           alt="Arnav Roy" 
           className="profile-image"
         />

@@ -58,9 +58,9 @@ const OOP = () => {
         </p>
         <div className="project-image-container" onClick={handleImageClick}>
           <img 
-            src="/OOP-pic.png" 
-            alt="Ghost Airways Ticket Booking System" 
-            className="project-image"
+            src={process.env.PUBLIC_URL + "/OOP-pic.png"} 
+            alt="OOP Diagram" 
+            className="oop-image"
           />
         </div>
       </div>

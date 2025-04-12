@@ -58,9 +58,9 @@ const BusinessPlan = () => {
         </p>
         <div className="logo-container" onClick={handleLogoClick}>
           <img 
-            src="/CaelumLogo.jpeg" 
+            src={process.env.PUBLIC_URL + "/CaelumLogo.jpeg"} 
             alt="Caelum Logo" 
-            className="logo-image"
+            className="caelum-logo"
           />
         </div>
       </div>
