@@ -45,16 +45,16 @@ const BusinessPlan = () => {
           <Link to="/" onClick={() => navigateToPage('/')}>About Me</Link>
           <Link to="/business-plan" onClick={() => navigateToPage('/business-plan')}>Business Plan</Link>
           <Link to="/resume" onClick={() => navigateToPage('/resume')}>Resume</Link>
-          <Link to="/oop" onClick={() => navigateToPage('/oop')}>OOP Project</Link>
+          <Link to="/oop" onClick={() => navigateToPage('/oop')}>OOP</Link>
           <Link to="/case-study" onClick={() => navigateToPage('/case-study')}>Case Study</Link>
           <Link to="/projects" onClick={() => navigateToPage('/projects')}>Asteroid Game Project</Link>
         </div>
       </div>
       
       <div className="business-plan-content">
-        <h1 className="business-plan-title">Case Study</h1>
+        <h1 className="business-plan-title">Business Plan</h1>
         <p className="business-plan-description">
-          This is my case study project from my pledge in Alpha Kappa Psi during Spring 2025. It is a new privatized gym experience, please click on the logo to read more!
+          This is my business plan project from my pledge in Alpha Kappa Psi during Spring 2025. It is a new privatized gym experience, please click on the logo to read more!
         </p>
         <div className="logo-container" onClick={handleLogoClick}>
           <img 

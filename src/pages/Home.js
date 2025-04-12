@@ -41,7 +41,7 @@ const Home = () => {
           <Link to="/" onClick={() => navigateToPage('/')}>About Me</Link>
           <Link to="/business-plan" onClick={() => navigateToPage('/business-plan')}>Business Plan</Link>
           <Link to="/resume" onClick={() => navigateToPage('/resume')}>Resume</Link>
-          <Link to="/oop" onClick={() => navigateToPage('/oop')}>OOP Project</Link>
+          <Link to="/oop" onClick={() => navigateToPage('/oop')}>OOP</Link>
           <Link to="/case-study" onClick={() => navigateToPage('/case-study')}>Case Study</Link>
           <Link to="/projects" onClick={() => navigateToPage('/projects')}>Asteroid Game Project</Link>
         </div>
