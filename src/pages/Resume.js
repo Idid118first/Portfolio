@@ -51,7 +51,7 @@ const Resume = () => {
         <h1 className="resume-title">Resume</h1>
         <div className="pdf-container">
           <object
-            data="/resume.pdf"
+            data={process.env.PUBLIC_URL + "/resume.pdf"}
             type="application/pdf"
             className="pdf-viewer"
           >
