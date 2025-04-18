@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/BusinessPlan.css';
+import '../styles/Menu.css';
 
 const BusinessPlan = () => {
   const [menuOpen, setMenuOpen] = useState(false);
